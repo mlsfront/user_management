@@ -13,12 +13,12 @@ define('MAIL_PORT', 587);
 
 // Caminho absoluto para o diretório do projeto
 if (!defined('PATH_BASE')) {
-    define('PATH_BASE', '/opt/lampp/htdocs/projeto/'); // Caminho absoluto
+    define('PATH_BASE', '/opt/lampp/htdocs/user_management/'); // Caminho absoluto
 }
 
 // URL base do projeto
 if (!defined('URL_BASE')) {
-    define('URL_BASE', 'http://localhost/projeto/');
+    define('URL_BASE', 'http://localhost/user_management/');
 }
 
 if (!defined('URL_ASSETS')) {
