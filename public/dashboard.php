@@ -13,7 +13,7 @@ if (!isset($_SESSION['usuario_id'])) {
 
 $conteudo = '
 <div class="index">
-    <h2>Dashboard</h2>
+    <h1 class="text-center my-4">Dashboard</h1>
 </div>
 ';
 include_once(URL_TEMPLATES_PATH . 'layout.php');
